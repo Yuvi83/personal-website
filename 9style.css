@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #161616;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+#main{
+    padding: 30px 50px;
+    position:relative;
+    width: 100%;
+    height: 100vh;
+    box-sizing:border-box;
+    background-size: 1400px;
+    background-position: right bottom;
+   /* background-image:url('building2.jpg');*/
+   background-image: linear-gradient ( red pink yellow);
+    background-repeat:no-repeat;
+    background-color: rgba(0,0,0,0.5);
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-family:'poppins';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 15px;
+    border-color: #333;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.5);
+    z-index: 1;
+}
+.menu{
+    display: flex;
+}
+.menu li a{
+    padding: 10px 15px;
+    color: white;
+    font-size: 15px;
+}
+
+.logo{
+    font-size:25px;
+    font-weight: bold;
+    color: #929292;
+    font-family:'poppins';
+    
+}
+.name{
+    font-family:sans-serif;
+    width: 50%;
+    position: absolute;
+    left:7%;
+    top: 40%;
+
+}
+/*.name p:nth-child(1),.name are use to selectwhen more than one paragraph are given and one  
+of the paraghraph select so we can use this tag */
+.name p{
+    color:blue;
+    font-size: 15px;
+}
+.name h1{
+    font-family: poppins;
+    font-size:40px;
+    margin: 15px;
+    letter-spacing: 3px;
+    color: #292929;
+
+}
+.resume-btn{
+    width: 200px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#292929;
+    color: #ffffff;
+    border-radius: 5px;
+
+}
+.resume-btn:hover{
+    background-color: #131313;
+    transition: 0.5s;
+
+}
+.black-line{
+    width: 50%;
+    height: 15%;
+    align-self: end;
+    margin-bottom: 4em;
+    position: absolute;
+    bottom: 0px;
+    left: 3%;
+    border-right: 1px solid rgba(41,41,41,0.30);
+}
+.social{
+    position: absolute;
+    left: 50px;;
+    bottom: 150px;
+    display: flex;
+
+}
+.social a{
+    margin:6px 12px;
+}
+.social i{
+    font-size: 15px;
+    color:red;
+
+}
+.social a:hover{
+    color:blue;
+    transition: all ease 0.5s;
+}
